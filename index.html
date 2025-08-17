@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction</title>
+</head>
+<body>
+    <h2>Enter Patient Details</h2>
+    <form action="/predict" method="post">
+        <label>Age:</label>
+        <input type="number" name="age" step="any" required><br><br>
+
+        <label>Sex (1 = Male, 0 = Female):</label>
+        <input type="number" name="sex" step="any" required><br><br>
+
+        <label>BMI:</label>
+        <input type="number" name="bmi" step="any" required><br><br>
+
+        <label>Blood Pressure:</label>
+        <input type="number" name="bp" step="any" required><br><br>
+
+        <label>Total Cholesterol (s1):</label>
+        <input type="number" name="tc" step="any" required><br><br>
+
+        <label>LDL (s2):</label>
+        <input type="number" name="ldl" step="any" required><br><br>
+
+        <label>HDL (s3):</label>
+        <input type="number" name="hdl" step="any" required><br><br>
+
+        <label>TCH (s4):</label>
+        <input type="number" name="tch" step="any" required><br><br>
+
+        <label>LTG (s5):</label>
+        <input type="number" name="ltg" step="any" required><br><br>
+
+        <label>Glucose (s6):</label>
+        <input type="number" name="glu" step="any" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
